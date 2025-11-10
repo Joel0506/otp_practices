@@ -1,0 +1,16 @@
+{
+  "name": "otp-email-server",
+  "version": "1.0.0",
+  "description": "Express server for sending and verifying OTP via email",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  }
+}
